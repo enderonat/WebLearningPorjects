@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+
+    <form action="">
+      <p>
+        <label for="username">Enter a Username:</label>
+        <input id="username" type="text" name="user" />
+      </p>
+      <p>
+        <input type="button" />
+        <input type="color" />
+      </p>
+      <p>
+        <label for="password">Enter a password:</label>
+        <input id="password" type="password" placeholder="password" />
+      </p>
+      <button>Submit</button>
+    </form>
+    <hr />
+
+    <h2>hijacking searches</h2>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>reddit</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="" id="search_query" />
+      <button>yutup</button>
+    </form>
+
+    <h2>more inputs</h2>
+    <form>
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">i agree</label>
+      <p>
+        <input type="radio" name="a" id="s" value="lolo" />
+        <label for="s">small</label>
+        <input type="radio" name="a" id="m" value="skrra" />
+        <label for="m">medium</label>
+        <input type="radio" name="a" id="l" value="large" />
+        <label for="l">large</label>
+      </p>
+      <p>
+        <input type="number" min="5" max="100" />
+      </p>
+      <p>
+        <label for="meal">please select</label>
+        <select name="meal" id="meal">
+          <option value="fish">Fish</option>
+          <option value="grass">vegetarian</option>
+          <option value="balls" selected>man</option>
+        </select>
+      </p>
+      <p>
+        <label for="cheese">amount of cheese</label>
+        <input type="range" name="cheeselevel" id="cheese" min="1" max="10" />
+      </p>
+      <button>submit</button>
+      <label for="request">type here</label>
+      <textarea
+        name=""
+        id="request"
+        cols="30"
+        rows="10"
+        placeholder="type here"
+      ></textarea>
+    </form>
+
+    <h2>Validation demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter First Name</label>
+      <input
+        type="text"
+        name="first"
+        id="first"
+        required
+        minlength="5"
+        maxlength="20"
+      />
+      <button>submit</button>
+    </form>
+  </body>
+</html>

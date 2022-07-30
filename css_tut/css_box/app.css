@@ -1,0 +1,49 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+
+h1 {
+  background-color: pink;
+  width: 100px;
+}
+
+#one {
+  background-color: #f72585;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /*box-sizing: border-box;*/
+}
+
+#two {
+  background-color: #560bad;
+  border-color: blanchedalmond;
+  border-width: 3px;
+  border-style: dashed;
+  border-left-color: blue;
+  border-left-width: 8px;
+  margin-left: 50px;
+  /*box-sizing: border-box;*/
+}
+
+#three {
+  background-color: #3f37c9;
+  border: 4px gray groove;
+  border-left-style: dotted;
+}
+
+#four {
+  background-color: #4cc9f0;
+  border-radius: 10% 20%;
+  margin: 200px;
+}
+/*div {
+  display: inline;
+  kutular falan için inline-block inline width height dinlemez
+}*/
+
+button {
+  padding: 10px 20px;
+}
